@@ -1,0 +1,417 @@
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 36px;
+}
+
+.logo-img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.email{
+    color: white;
+    text-decoration: none;
+}
+.box1-text1{
+    color: white;
+    font-size: 12px;
+}
+
+.box1-text2{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.box1-text3{
+    color: white;
+    font-size: 14px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.box2-list{
+   
+    list-style-type: none;
+    margin-top: 40px;
+}
+.box2-link{
+    text-decoration: none;
+}
+.box2-list-item{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.box2-list-item:hover{
+    color: #019cdb;
+    text-decoration: none;
+}
+
+.surnoi-image{
+    padding: 30px 0px 20px 20px;
+    text-align: center;
+} 
+
+.heading-1{
+    font-size: 48px;
+    color: #019cdb;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.para{
+    color: black;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: 100px;
+    
+}
+.box2-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-button{
+    background-color: #1DA8F2;
+    color: black;
+    border-radius: 40px;
+    border-color: #1DA8F2;
+    width: 95px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.login-button:hover{
+    border: 3px solid black;
+}
+
+.first-item{
+    color: #4990DE;
+}
+
+.line1{
+    width: 95%;
+    height: 2px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 20px 20px 12px gray;
+    margin-top: 2%;
+}
+
+.line2{
+    width: 95%;
+    height: 2px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 20px 20px 12px gray;
+    margin-top: 2%;
+}
+
+.box4-img{
+    float: left;
+    height: 280px;
+    width: 400px;
+    margin-left: 20%;
+    
+}
+
+.box4-para{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 20%;
+    padding-top: 50px;
+    line-height: 40px;
+}
+
+.box5-head{
+    font-size: 40px;
+    font-family: "jockey one", sans-serif;
+    color: #1e1f22;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.box5-para{
+    font-size: 25px;
+    color: #1e1f22;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+.box6-img{
+    background-image: url("https://static.wixstatic.com/media/nsplsh_73b1120ca8a14d27b05ede7f012c6cb1~mv2.jpg/v1/crop/x_666,y_0,w_4125,h_2959/fill/w_1034,h_741,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_73b1120ca8a14d27b05ede7f012c6cb1~mv2.jpg");
+    width: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    height: 694px;
+}
+
+
+.box6-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    width: 50%;
+    
+}
+
+.box6{
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+.box6-span{
+    color: #3ab3f4;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.box6-button{
+    width: 160px;
+    height: 50px;
+    background-color: #1da8f2;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: 1px solid #1DA8F2;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+   margin-left: 185px;
+}
+.box6-button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+
+.box6-heading{
+    padding-left: 145px;
+    padding-right: 245px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.box6-para{
+    padding-left: 145px;
+    padding-right: 245px;
+    padding-top: 0;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.box6-img2{
+    height: 140px;
+    width: 165px;
+    position: relative;
+    left: 300px;
+    
+}
+
+.box6-img-para{
+    text-align: center;
+    padding: 18px;
+    padding-left: 110px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box7{
+    background-image: url(/images/img8.png);
+    height: 620px;
+    background-size: cover;
+    padding-top: 10px;
+}   
+
+.box7-1{
+    color: black;
+    background-color: #1da8f2;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    margin-left: 250px;
+    letter-spacing: 1px;
+}
+
+.box7-2{
+    color: white;
+    
+}
+.box7-link{
+    text-decoration: none;
+}
+
+.box7-img1{
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.box7-img1:hover{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.box7-container{
+    margin-left: 240px;
+    padding:0 20px 20px 20px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    width: 200px;
+}
+
+.box7-container2{
+    padding:0 20px 20px 20px;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    width: 350px;
+    margin-right: 80px;
+}
+
+.box7-text{
+    color: white;
+}
+.box7-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box8{
+    background-image: url("https://static.wixstatic.com/media/86b1ce_aedbe75f20eb401ea5c2ac9207c2ccfe~mv2.jpg/v1/crop/x_0,y_54,w_1200,h_268,q_80,enc_auto/86b1ce_aedbe75f20eb401ea5c2ac9207c2ccfe~mv2.jpg&quot");
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.box8-contact{
+    display: flex;
+}
+
+.box8-sub1{
+    margin-left: 280px;
+    padding-top: 65px;
+}
+
+.box8-logo-img{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.box8-sub2{
+   
+    padding-top: 78px;
+    width: 590px;
+    padding-left: 20px;
+}
+
+.box8-sub2-para{
+    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+    width: 480px;
+}
+
+.box8-button{
+    background-color: #1da8f2;
+    color: white;
+    border: #1da8f2;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 14px;
+    float: right;
+}
+
+.box8-button:hover{
+    background-color: rgb(174, 99, 63);
+    cursor: pointer;
+}
+.box8-sub3{
+    
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 60px;
+}
+
+.box8-sub3-heading{
+    font-size: 24px;
+    color: black;
+    font-family: "Roboto";
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 65px;
+}
+
+.box8-line{
+    width: 175px;
+    height: 1px;
+    background-color: black;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    opacity: 0.2;
+}
+
+.box8-icon{
+    
+    width: 40px;
+    height: 40px;
+}
+
+.box8-contact-info{
+    
+    width: 255px;
+    margin-top: 1px;
+    margin-left: 26px;
+    margin-right: 276px;
+    font-size: 16px;
+    font-family: "roboto";
+}
+.box8-email{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+}
+
+.box9{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+}
+
+.box9-para{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
